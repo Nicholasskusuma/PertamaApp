@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileActivity">
+    tools:context=".ProfilActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,7 +39,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="email@student.uph.edu" />
+            android:inputType="textEmailAddress"
+            android:hint="email@student.uph.edu"/>
 
         <Button
             android:id="@+id/btnSubmit"
@@ -55,13 +56,12 @@
             android:text="Hasil" />
 
         <TextView
-            android:id="@+id/txtvHasil"
+            android:id="@+id/txvHasil"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:textSize="12pt"
             android:text="Nama \nEmail \nProgram Studi" />
-
-
     </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

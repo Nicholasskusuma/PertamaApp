@@ -39,7 +39,7 @@ public class ProfilActivity extends AppCompatActivity {
         edtNama = findViewById(R.id.edtNama);
         edtEmail = findViewById(R.id.edtEmail);
         edtProdi = findViewById(R.id.edtProdi);
-        txvHasil = findViewById(R.id.txtvHasil);
+        txvHasil = findViewById(R.id.txvHasil);
 
         edtNama.setText(getIntent().getStringExtra("nama"));
 
